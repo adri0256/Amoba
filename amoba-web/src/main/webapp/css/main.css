@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*body {
+    background-color: #333;
+    color: white;
+}*/
+
+.grid {
+    display: grid;
+}
+.cell {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: Arial;
+    font-size: 3rem;
+    font-weight: bold;
+    background: #333;
+    border: 1px solid white;
+}
+
+.back-arrow {
+    width: 30px;
+    height: 30px;
+}
+
+.symbol {
+    width: 70px;
+    height: 70px;
+}
+
+.nav-buttons {
+    margin-bottom: 10px;
+}
+
+.nav-buttons > button{
+    margin-right: 0.5em;
+}
+
+.playerSpan {
+    color: white;
+}

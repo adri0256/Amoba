@@ -1,0 +1,10 @@
+.menuButton {
+    background: none;
+}
+
+#gameTable {
+    -fx-padding: 20;
+    -fx-pref-width: 100%;
+    -fx-pref-height: 100%;
+    -fx-grid-lines-visible: true;
+}

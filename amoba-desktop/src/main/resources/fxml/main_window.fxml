@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" prefHeight="400.0" prefWidth="600.0" spacing="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hu.alkfejl.controller.MainWindowController">
+    <children>
+        <Label text="Amoba">
+            <font>
+                <Font name="Arial Bold" size="48.0" />
+            </font>
+         <VBox.margin>
+            <Insets bottom="80.0" />
+         </VBox.margin>
+        </Label>
+        <Button fx:id="play" mnemonicParsing="false" onAction="#onPlay" styleClass="menuButton" text="Play" />
+        <Button mnemonicParsing="false" onAction="#onProfile" styleClass="menuButton" text="Profile" />
+        <Button mnemonicParsing="false" onAction="#onExit" styleClass="menuButton" text="Quit" />
+    </children>
+</VBox>
